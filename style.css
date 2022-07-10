@@ -1,0 +1,472 @@
+body {
+    background-color: rgb(5, 5, 5);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+    overflow-x: hidden;
+}
+
+.fundo{
+    background-image: url(tentaitv2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
+.barra {
+    width: 100%;
+    height: 4em;
+    background-color: rgb(156, 155, 155) ;
+    margin-top: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+h1 {
+    color:white ;
+    text-shadow:1px 1px 1px rgb(200, 200, 200);
+    font-size: 2.5em;
+}
+
+h1.habil{
+    position: relative;
+    float: right;
+    bottom: 5em;
+    right: 2em;
+}
+
+.habilidades{
+    color: white;
+    position: relative;
+    left: 75%;
+    bottom: 5em;
+    list-style-type:square;
+}
+.habilidades2{
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 2em;
+}
+.containerinicio{
+    width: 30em;
+    text-align: center;
+    position: relative;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+   
+}
+.containerinicio:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.containermid{
+    width: 30%;
+    position: relative;
+    left: 35%;
+    bottom: 3em;
+    text-align: center;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.containermid:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#btnproj {
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    color:  rgba(0, 0, 0, 0.1);
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    border-radius: 80px;
+}
+
+
+#btnproj:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color:  rgba(0, 0, 0, 0.1);
+
+}
+
+
+.containerfim {
+    width: 22em;
+    height: 20%;
+    position: absolute;
+    right: 2em;
+    top: 16%;
+    background-color: rgba(34, 33, 33,0);
+}
+
+.insta {
+    padding: 0.9em;
+    width: 2.5em;
+    float: left;
+    position: relative;
+    left: 45%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    background-image: linear-gradient(transparent 0%,
+            transparent 90%,
+            rgb(59, 246, 34) 90%,
+            rgb(59, 246, 34) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.insta:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.git {
+    padding: 0.9em;
+    width: 2.5em;
+    float: left;
+    position: relative;
+    left: 45%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    cursor: pointer;
+    background-image: linear-gradient(transparent 0%,
+            transparent 90%,
+            rgb(59, 246, 34) 90%,
+            rgb(59, 246, 34) 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.git:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+header{
+    width: 100%;
+    height: 65em;
+    position: absolute;
+    top:100%;
+    text-align: center;
+    background-image: url(tentaitv2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+
+}
+
+.h1footer{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top:10%;
+    font-size: 4em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em black ;
+}
+
+.listafinal{
+    list-style: none;
+    color: white;
+    display:inline;
+    position: relative;
+    align-items: center;
+    top: 2em;
+    right:2em;
+padding: 0.4em;
+margin: 2.5em;
+font-size: 1.3em;
+cursor: pointer;
+-webkit-transition: -webkit-transform .5s ease;
+transition: transform .5s ease;
+background-image: linear-gradient(transparent 0%,
+        transparent 90%,
+        rgb(59, 246, 34) 90%,
+        rgb(59, 246, 34) 100%);
+background-repeat: no-repeat;
+background-size: 0% 100%;
+background-position-x: right;
+transition: background-size 300ms;
+
+}
+
+.listafinal:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+#jogoVelha{
+    right:1%;
+}
+.imgjogoVelha{
+    width: 12em;
+    height: 6em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 15em;
+   right:12em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgjogoVelha:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgagencia{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 15em;
+    right: 7.5em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgagencia:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgchurras{
+    width: 12em;
+    margin: 0;
+    padding: 0;
+    height: 6em;
+    position: relative;
+    top: 15em;
+right:2em;
+border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgchurras:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.imgworkshop{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 15em;
+    left: 22em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgworkshop:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.imgStab{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 15em;
+    right: 9.5em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.imgStab:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.calcImc{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 33em;
+    right: 29em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.calcImc:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+}
+#anchor1{
+  
+    width: 100%;
+    height: 1.5em;
+    margin:0;
+    padding: 0;
+    position: relative;
+    top:8em;
+    font-size: 1.5em;
+    color:rgb(6, 6, 6) ;
+    background-color: rgb(156, 155, 155);
+    opacity: 0.4;
+}
+
+.instaFeitos{
+    color:white;
+    position: relative;
+    top: 4em;
+    font-size: 60px;
+}
+.insta3{
+    color:white;
+    font-size: 1.3em;
+    position: relative;
+    bottom: 3em;
+    left:17em;
+    display: inline-block;
+    padding: 0.5em;
+    cursor: pointer;
+-webkit-transition: -webkit-transform .5s ease;
+transition: transform .5s ease;
+background-image: linear-gradient(transparent 0%,
+        transparent 90%,
+        rgb(59, 246, 34) 90%,
+        rgb(59, 246, 34) 100%);
+background-repeat: no-repeat;
+background-size: 0% 100%;
+background-position-x: right;
+transition: background-size 300ms;
+}
+
+.insta3:hover{
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.stab{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 4em;
+    left: 12em;
+}
+
+.instaStab{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 6em;
+    left: 10em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+
+}
+
+.instaStab:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.insta2{
+    color:white;
+    font-size: 1.3em;
+    position: relative;
+    top:8em;
+    right:6em;
+    display: inline-block;
+    padding: 0.5em;
+    cursor: pointer;
+-webkit-transition: -webkit-transform .5s ease;
+transition: transform .5s ease;
+background-image: linear-gradient(transparent 0%,
+        transparent 90%,
+        rgb(59, 246, 34) 90%,
+        rgb(59, 246, 34) 100%);
+background-repeat: no-repeat;
+background-size: 0% 100%;
+background-position-x: right;
+transition: background-size 300ms;
+}
+
+.insta2:hover{
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.cogood{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 16em;
+    right: 13em;
+}
+
+.instaCogood{
+    width: 12em;
+    margin: 0;
+    height: 6em;
+    padding: 0;
+    position: relative;
+    top: 20em;
+    right: 18em;
+    border: 3px solid rgb(59, 246, 34);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.instaCogood:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* 
+    cores principais
+
+    color: rgb(5, 5, 5); black
+    color: rgb(59, 246, 34); verde
+    color: rgb(248, 241, 241); branco
+
+    black colors
+
+    color: rgb(6, 6, 6);
+    color: rgb(34, 33, 33);
+    color: rgb(156, 155, 155);
+
+    */
